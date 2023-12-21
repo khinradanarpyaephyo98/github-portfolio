@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <!-- bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
@@ -33,11 +34,10 @@
                         <a class="nav-link" href="#experience" style="color:white;font-weight: 800;">Experiences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects"style="color:white;font-weight: 800;">Projects</a>
-                    </li>
-                    
-                    <li class="nav-item">
                         <a class="nav-link" href="#skills" style="color:white;font-weight: 800;">Education&Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobbies" style="color:white;font-weight: 800;">Hobbies</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Resume" style="color:white;font-weight: 800;">Resume</a>
@@ -62,7 +62,7 @@
     <!-- about section-->
     <section id="about">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
+            <h1 class="text-center" style="font-weight: bold;font-family: Georgia, 'Times New Roman', Times, serif;"></h1>>About Me</h1>
             <div class="row mt-4">
                 <div class="col-lg-4">
                     <img src="images/KRPP_profile.jpg" class= "imageAboutPage" alt="" style="border-radius: 20px;">
@@ -73,14 +73,16 @@
                         <h5 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;letter-spacing: 2px;">My Motto : " Do what you want! "</h5> 
                     
                         <div class="col-md-6">
-                            <ul>
-                                <li>Name: Khin Radanar Pyae Phyo</li>
-                                <li>Age: 26</li>
-                                <li>Occupation: AI Engineer</li>
-                            </ul>
+                            
+                                <p><b>Name: </b> Khin Radanar Pyae Phyo</p>
+                                <p><b>Age: </b> 26 </p>
+                                <p><b>Occupation:</b> AI Engineer</p>
+                                <p><b>Email: </b>itgirliskpkp1@gmail.com</p>
+                                <p><b>Phone:</b> (+95)9784037867</p>
+                           
                         </div>
                     </div>
-                    <h3>University Life</h3>
+                    <h3 style="font-weight: bold;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">University Life</h3>
                     <p style="justify-content: center;text-align: justify;"> While studying in the university at 2014-2019, most students(90%) choose the web development as it has good opportunities for their choices. My parents also want to choose software engineering. 
                         But,As for me, I chose AI field even though I know it has rare chance of getting Jobs in this AI industry. Whenever I learn about the Artificial Intelligence's subjects at university, I am happy to learn about it.
                         In November,2019, I graduated a bachelor of Science (Knowledge Engineering ) at University of Information Technology.
@@ -89,7 +91,7 @@
                     </p>
                    
                     <div class="row mt-3">
-                        <h3>Working Life</h3>
+                        <h3 style="font-weight: bold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Working Life</h3>
                         <p style="text-align: justify;">I started working at Nexidea as AI Research Engineer Role in November,2019.I worked under the Myanmar Team Manager and Japanese Professor,the head of AI department. 
                            I have sucessfully complicated to the first project: "Hamon's smartwear project". I got the trust from the Noriaki Koide,Japanese Professor and got the next tasks assigned due to the first project's success.
                            It was a good environment where the members are help each other in Nexidea. Unfortunately, The covid was happended and Nexidea's business can't continue due to covid pandemic at Feburary,2022.
@@ -105,7 +107,7 @@
     <!-- experience section-->
     <section id="experience">
         <div class="container">
-            <h1 class="text-center">Job Experiences</h1>
+            <h1 class="text-center" style="font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 50px;">Job Experiences</h1>
             <ol class="timeline-list">
 
                 <li class="timeline-item">
@@ -178,10 +180,7 @@
     <!-- skills&Educations section-->
     <section id="skills">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">Skills&Education</h1>
-
-
-            
+            <h1 class="text-center" style="font-weight: bold;font-family: Georgia, 'Times New Roman', Times, serif;">Education and Skills</h1>
             <h3 style="margin-top:40px ; margin-left: 45px;">Education</h3>
     
             <h5 class="h5 timeline-item-title" style="margin-left: 50px;">UNIVERSITY OF INFORMATION TECHNOLOGY <span>[2014 - 2019] </span>
@@ -193,16 +192,61 @@
                 <img src="images/skills.png" class= "imageAboutPage" alt="" style="border-radius: 20px; height:fit-content;width: fit-content;margin-left: 30px;">
             </div>
     </section>
+
+    <!-- hobbies section-->
+    <section id="hobbies">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center"style="font-weight: bold;font-family: Georgia, 'Times New Roman', Times, serif;">Hobbies</h1>
+            <div class="w3-row-padding">
+                <div class="w3-container w3-third">
+                  <img src="images/hobby1.jpg" style="width:90%;cursor:pointer" 
+                  onclick="onClick(this)" class="w3-hover-opacity">
+                </div>
+                <div class="w3-container w3-third">
+                  <img src="images/hobby2.jpg" style="width:100%;cursor:pointer" 
+                  onclick="onClick(this)" class="w3-hover-opacity">
+                </div>
+                <div class="w3-container w3-third">
+                  <img src="images/hobby3.jpg" style="width:100%;cursor:pointer" 
+                  onclick="onClick(this)" class="w3-hover-opacity">
+                </div>
+              </div>
+              
+              <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                  <img id="img01" style="width:100%">
+                </div>
+              </div>
+            </div>
+    </section>
+    <script>
+        function onClick(element) {
+          document.getElementById("img01").src = element.src;
+          document.getElementById("modal01").style.display = "block";
+        }
+    </script>
+
+     <!-- skills&Educations section-->
+     <section id="Resume">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center" style="font-family: Georgia, 'Times New Roman', Times, serif;font-weight: bold;">Resume</h1>
+            <div >
+                <img src="images/krpp_resume.jpg" alt="" style="border-radius: 20px; height:70%;width: 70%;display: block;
+                margin-left: auto;
+                margin-right: auto;
+              ">
+            </div>
+    </section>
+
     <!-- footer section-->
     <footer id="footer">
         <div class="container-fluid">
             <!-- social media icons -->
             <div class="social-icons mt-4">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+                <a href="https://www.linkedin.com/in/khin-radanar-p-18399717a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/khinradanarpyaephyo98" target="_blank" style="margin-bottom: 20px;"><i class="fab fa-github"></i></a>
+                
             </div>
         </div>
     </footer>
